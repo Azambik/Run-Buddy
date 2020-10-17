@@ -2,21 +2,25 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <title>Sit Buddy</title>
+        <link rel="stylesheet" href="./assets/css/style.css"/>
+        <title>Run Buddy</title>
+        </head>
         <body>
              <!--navigation -->
             <header>
-              <h1 href="/">RUN BUDDY</h1>
+              <h1>
+                <a href="/">RUN BUDDY </a>
+              </h1>
               <nav>
                   <!--Unordered list element-->
                   <ul>
                       <!--list item element-->
                       <li>
                           <!--Anchor element-->
-                          <a href="#What-We do">What We Do</a>
+                          <a href="#what-we-do">What We Do</a>
                       </li>
                       <li>
-                          <a href="What-you-do">What You Do</a>
+                          <a href="#what-you-do">What You Do</a>
                       </li>
                       <li>
                           <a href="#your-trainers">Your Trainers</a>
@@ -28,16 +32,72 @@
               </nav>
             </header>
             <!--hero/jumbotron-->
-            <section>
-
+            <section class="hero">
+                <div class="hero-form">
+                    <h3>Lets Strarted Today</h3>
+                    <p>Fill out this form and one of our trainers will schedule a consult</p>
+                    <!--add orm element-->
+                    <form>
+                        <label for="name">Entr full name:</label>
+                        <input tyoe="text" placeholder="Your Name" name="Name" id="name" class="form-input">
+                        <label for="email">Entr email address:</label>
+                        <input tyoe="email" placeholder="Email Adress" name="email" id="email" class="form-input">
+                        <label for="phone">Enter a telephone number:</label>
+                        <input tyoe="tel" placeholder="Phone number" name="phone" id="phone" class="form-input">
+                        <p>
+                            Have you worked out wit a trainer before?
+                            <input type="radio" name="trainer-confirm" id="trainer-yes" />
+                            <label for="trainer-yes">yes</label>
+                            <input type="radio" name="trainer-confirm" id="trainer-no" />
+                            <labl for="trainer-no">No</labl>
+                        </p>
+                        <p>
+                            <label for="checkbox">I acknowledge that I am atleast 18 years of age
+                            </label>
+                            <input type="checkbox" name="Age-confirm" id="checkbox"/>
+                        </p>
+                        <button type="submit">
+                            Get running!
+                        </button>
+                    </form>
+                </div>
             </section>
+            <!--end hero-->
             <!--"what we do" section-->
-            <section>
+            <section id="what-we-do">
                 <h2>What We Do</h2>
+                <p>
+                   butcher selfies chambray shabby chic gentrify readymade yr Echo Park XOXO Tumblr normcore Banksy direct trade Blue Bottle chillwave you probably haven't heard of them single-origin coffee Vice fanny pack fixie Odd Future Austin fingerstache pickled twee synth Wes Anderson Thundercats viral bitters flannel meggings narwhal Marfa Schlitz sustainable Intelligentsia umami deep v craft
+                </p>
             </section>
             <!--"What You Do" section-->
-            <section>
+            <section id="what-you-do">
                 <h2>What You Do</h2>
+
+                <div>
+                    <!--isert this img element-->
+                    <img src="./assets/images/step-1.svg" alt="" />
+                    <h3> Step 1: Fill out the form Above</h3>
+                    <p>You're already here, so why not?</p>
+                </div>
+                
+                <div>
+                    <img src="./assets/images/step-2.svg" alt="" />
+                    <h3>Step 2: consult with one of our Trainers.</h3>
+                    <p>Are you here to build muscle, lose weight, or just feel good?</p>
+                </div>
+
+                <div>
+                    <img src="./assets/images/step-3.svg" alt="" />
+                    <h3>Step 3: Get Running.</h3>
+                    <p>Hit the ground running (litteraly) once your trainer lays out your plan</p>
+                </div>
+
+                <div>
+                    <img src="./assets/images/step-4.svg" alt="" />
+                    <h3>Step 4: See Results.</h3>
+                    <p>Bi-weekly checkins with your trainer will keep you focused</p>
+                </div>
             </section>
             <!--"meet the trainers" section-->
             <section>
@@ -50,8 +110,12 @@
             <!--footer-->
             <footer>
                 <h2>❤️ Made with love by Run Buddy.</h2>
+                <div>
+                    <a href="#">Read Our Privacy Policy</a><br />
+                    &copy; 2019 Run Buddy, Inc.
+                </div>
             </footer>
               
         </body>
-    </head>
+
 </html>
