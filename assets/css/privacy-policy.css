@@ -1,0 +1,33 @@
+.hero{
+    background-position:bottom;
+    height: auto;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.page-title{
+    color: #fce138;
+
+}
+h2{
+    width: 80%;
+    margin: 0;
+}
+article{
+    color: #024e76;
+}
+article h3{
+    font-size: 25px;
+    margin: 25px;
+}
+article p{
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 20px;
+}
+article ul{
+    margin: 15px 20px 0 20px;
+}
+article ul li{
+    color: #39a6b2;
+    margin: 10px;
+}
