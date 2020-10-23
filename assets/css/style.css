@@ -170,6 +170,12 @@ header nav ul li a {
     font-size:46px;
     flex: 1 30%;
 }
+.step-text{
+    Flex: 12;
+}
+.step-img img{
+    max-width: 100%;
+}
 .step-info{
     flex: 2 70%;
     display: flex;
