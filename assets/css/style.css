@@ -32,7 +32,7 @@ header nav ul{
 header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
-    font-size: 1.55vw;
+    font-size: 12px;
   }
   section{
     color: #39a6b2;
@@ -259,11 +259,17 @@ header nav ul li a {
       text-align: center;
       background:#024e76;
   }
+  .contact-info{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+  }
   .contact h2{
       color: #fce138
   }
   .contact-info iframe{
       height: 400px;
+      margin-bottom: 30px;
   }
   .contact-info div {
     color: white;
@@ -318,14 +324,14 @@ header nav ul li a {
     padding: 7px 15px;
     font-size: 16px;
     color: #024e76;
-    width: 25%;
+    width: 100%;
     margin-bottom: 15px;
     margin-top: 5px;
     text-align: center;
     
 }
 .contact-form button{
-    width: 25%;
+    width: 100%;
     border: none;
     background: #fce138;
     color: #024e76;
